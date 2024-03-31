@@ -1,0 +1,26 @@
+   header { 
+    height: 500px; /* Встановлення висоти header */
+  }
+
+  .it_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Займати всю висоту header */
+  }
+
+  .mine-img img,
+  .mine img {
+    max-height: 100%; /* Максимальна висота картинок 100% від батьківського контейнера */
+    width: auto;
+    max-width: 100%; /* Зробити зображення адаптивним */
+    display: block;
+    margin: 0 auto; /* відцентрувати */
+  }
+  .mine-img {
+    width: 20%; /* Займатиме 20% ширини */
+  }
+  
+  .mine {
+    width: 80%; /* Займатиме 80% ширини */
+  }
